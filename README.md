@@ -1,6 +1,6 @@
 # Python Bioinformatics Assignment II
 
-This repository contains solutions to Python programming tasks focused on conditional statements, loops, lists, and user input validation. The tasks are designed to strengthen fundamental Python skills for bioinformatics applications.
+This repository contains solutions for Python programming tasks focused on conditional statements, loops, lists, and user input validation. The tasks are designed to strengthen fundamental Python skills for bioinformatics applications.
 
 ## Task Overview
 
@@ -24,12 +24,10 @@ A program that retrieves an amino acid from a list based on a user-provided inde
 
 ## Usage
 
-1. Run `Khorshidian_A06.py` in a Python environment, following prompts for user inputs where applicable.
-2. Each task is separated with comments for clarity.
+Run `Bioinformatics_Assignment.py` in a Python environment, following prompts for user inputs where applicable. Each task is separated with comments for clarity.
 
 ## Author
 This repository was created by Ayeh Khorshidian.
 
 ## License
 This project is open-source and available under the MIT License.
-
