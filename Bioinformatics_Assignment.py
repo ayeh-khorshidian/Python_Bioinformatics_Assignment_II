@@ -1,3 +1,5 @@
+# Bioinformatics_Assignment.py
+
 # Task 1: if-elif-else statements
 def calculate_weight():
     mass = float(input("Enter the object's mass in kilograms: "))
@@ -43,46 +45,4 @@ def create_list():
 
 # Task 5: List functions
 def list_functions():
-    amino_acids = ["Try", "Asp", "Lys", "Met"]
-    amino_acids.append("Asp")
-    print("List after appending 'Asp':", amino_acids)
-
-    amino_acids.sort()
-    print("Sorted list:", amino_acids)
-
-    amino_acids.reverse()
-    print("Reversed sorted list:", amino_acids)
-
-    sub_list = amino_acids[1:4]
-    print("Sub-list (2nd to 4th amino acids):", sub_list)
-
-
-# Task 6: Lists and Decisions
-def amino_acid_lookup():
-    amino_acids = ["Trp", "Arg", "Liu", "Ilu", "Asp"]
-    index = int(input("Enter a number from 1 to 5: "))
-    if 1 <= index <= len(amino_acids):
-        print(f"Amino acid at position {index} is: {amino_acids[index - 1]}")
-    else:
-        print("Error: Number out of range.")
-
-
-# Main function to call each task
-def main():
-    print("Running Task 1:")
-    calculate_weight()
-    print("\nRunning Task 2:")
-    validate_number()
-    print("\nRunning Task 3:")
-    bug_collector()
-    print("\nRunning Task 4:")
-    create_list()
-    print("\nRunning Task 5:")
-    list_functions()
-    print("\nRunning Task 6:")
-    amino_acid_lookup()
-
-
-if __name__ == "__main__":
-    main()
-
+    amino_acids = ["Try"
